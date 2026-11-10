@@ -1,0 +1,14 @@
+{
+  "name": "dog-walking-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run --environment jsdom",
+    "test:watch": "vitest",
+    "serve": "python3 -m http.server 4173"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8",
+    "jsdom": "^25.0.1"
+  }
+}
